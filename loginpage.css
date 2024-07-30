@@ -1,0 +1,173 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+}
+
+.bg{
+	background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.9) ),url(images/backgroundplan.jpg);
+    background-size: cover;
+    background-position: center;
+	width: 100%;
+    height: 100vh;
+	overflow-y: scroll;
+	overflow-x: scroll;
+}
+.banner{
+	position:relative;
+	background-color :#010101;
+    width: 100%;
+    height: 90px;
+	position: fixed;
+	top:0;
+	right:0;
+	left:0;
+}
+.navbar{
+     width: 100%;
+     margin: auto;
+     padding: 35px ;
+     display: flex;
+     align-items: space-between;
+}
+.navbar ul li{
+     list-style: none;
+     display: inline-block;
+     margin: 0 10px;
+     position: relative;
+}
+.navbar ul li a{
+     text-decoration: none;
+     color: #fff;
+     text-transform: uppercase;
+}
+.navbar ul li::after{
+     content: '';
+     height: 3px;
+     width: 0%;
+     background: #f90000;
+     position: absolute;
+     left: 0;
+     bottom: -10px;
+     transition: 0.5s;
+}
+.navbar ul li:hover::after{
+     width: 100%;
+}
+
+.logo{
+	position: absolute;
+	top: 3px;
+	right: 3px;
+}
+h1{
+	text-align:center;
+	color:#fff;
+	padding-top:110px;
+	font-weight: bold;
+	font-size:50px;
+}
+h2{
+	font-weight: bold;
+	font-size:30px;
+}
+h2 a{
+	text-decoration:none;
+	color:white;
+}
+ul{
+	padding-left:30px;
+	padding-right:30px;
+}
+
+
+.container{
+    background-color:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.9) ) ;
+    max-width:400PX;
+    margin:0 auto;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.3);
+    text-align:center;
+}
+.container h1{
+    color:#e5e4e2;
+    margin-bottom:20px;
+}
+.container p{
+    color:#f5f0f0;
+}
+
+input[type=text], input[type=password] {
+    width:100%;
+    padding:10px;
+    margin:5px 0 22px 0;
+    display:inline-block;
+    border:none;
+    background: #f1f1f1;
+    border-radius:5px;
+}
+
+input[type=text]:focus, input[type=password]:focus{
+    background-color:#ddd ;
+    outline:none;
+}
+
+label{
+    font-family: sans-serif;
+    color:#ddd;
+}
+
+hr{
+    border:1px solid #f1f1f1;
+    margin-bottom:25px;
+}
+
+button{
+    background-color: #04AA6D;
+    color:white;
+    padding:12px 20px;
+    margin:8px 0;
+    border:none;
+    border-radius:5px;
+    cursor: pointer;
+    width:100%;
+    opacity: 0.9;
+}
+
+button:hover{
+    opacity:1;
+}
+
+.signupbtn{
+    padding: 12px 20px;
+    background-color: #f44336;
+}
+
+.loginbtn, .signupbtn{
+    float:left;
+    width:48%;
+
+}
+
+.container{
+    padding:16px;
+}
+
+.clearfix::after{
+       content:"";
+       clear:both;
+       display:table;
+}
+
+
+/*---custom scroll bar-----*/
+::-webkit-Scrollbar{
+	width: 15px;
+}
+::-webkit-scrollbar-track{
+	background: #212121;
+}
+::-webkit-scrollbar-thumb{
+	background: #212121;
+}		

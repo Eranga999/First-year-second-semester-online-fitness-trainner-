@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<link  rel="icon" type="image/jfif" href="images/whitelogo.png" class="center"  >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bash Fitness</title>
+    <link rel="stylesheet" href="signuppage.css">
+</head>
+<body>
+
+<div class="banner">
+        <div class="navbar">
+            <ul>
+                <li><a href="alitpage.html">Home</a></li>
+                <li><a href="loginpage.html">Trainers</a></li>
+                <li><a href="loginpage.html">Shop</a></li>
+                <li><a href="reviewpage.html">Reviews</a></li>
+                <li><a href="loginpage.html">Plans</a></li>
+                <li><a href="aboutpage.html">About</a></li>
+            </ul>
+<div class="logo">
+<img src="images/redlogo.png" style="width:80px;height:80px">
+</div>
+    </div>
+</div>
+<div class= "bg">
+    <form action="signuppage.php" method="post">
+        <div class="container">
+            <h1>Sign Up</h1>
+            <p>Please fill this form to creat an account</p>
+            <hr>
+            <label for="name"><b>Name</b></label>
+            <input type="text" placeholder="Enter Name" name="name" required>
+
+            <label for="age"><b>Age</b></label>
+            <input type="text" placeholder="Enter you age" name="age" required>   
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter email" name="email" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+
+            <label for="psw-repeat"><b>Re-enter the password</b></label>
+            <input type="password" placeholder="repeat password" name="psw-repeat" required>
+
+            <label for="goal"><b>Your Goal</b></label>
+            <input type="text" placeholder="type here" name="goal" required>
+
+            <label for="height"><b>Height</b></label>
+            <input type="text" placeholder="Enter here" name="height" required>
+            <br></br>
+            <label for="weight"><b>Weight</b></label>
+            <input type="text" placeholder="Enter here" name="weight" required>
+            <br></br>
+
+            <label for="gender"><b>Gender</b></label>
+            <select id="gender" name="gender">
+                <option value="choose">choose</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                </select>
+                <br></br>
+            
+            <label>
+                <input type="checkbox" checked name="remember" style="margin-bottom:15px">Remember me
+            </label>
+
+            <p>By creating an account you agreed to our terms and conditions<a href="#" style="color:dodgerblue">Terms & privacy</a>.</p>
+
+            <div class="clearfix">
+                <button type="button" class="cancelbtn">Cancel</button>
+                <button type="submit" class="signupbtn">Sign Up</button>
+            </div>
+        </div>
+    </form>
+<!--enter code between here-->
+
+<footer>
+<div class="contactinfo">
+        <p><h5>Email</h5> Bashfitness@gmail.com</p>
+        <p><h5>Phone</h5> 0112345434</p>
+        <p><h5>Instagram</h5> Bashfitness</p>
+<p><h5>Admin </h5> Bashadmin@gmail.com</p>
+<h5 style="margin-left:80px;">Copyright Reserved ©Bash fitness 2023</h5>
+     </div>
+
+</footer>  
+</div>
+</body>
+</html>

@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.bg{
+   background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.9) ),url(../images/backgroundhome.jpg);
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 100vh;
+   overflow-y: scroll;
+   overflow-x: scroll;
+}
+.banner{
+   position:relative;
+   background-color :#010101;
+   width: 100%;
+   height: 90px;
+   position: fixed;
+   top:0;
+   right:0;
+   left:0;
+}
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 35px ;
+    display: flex;
+    align-items: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #f90000;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.logo{
+   position: absolute;
+   top: 3px;
+   right: 3px;
+}
+.clearfix::after{
+      content:"";
+      clear:both;
+      display:table;
+}
+::-webkit-Scrollbar{
+   width: 15px;
+}
+::-webkit-scrollbar-track{
+   background: #212121;
+}
+::-webkit-scrollbar-thumb{
+   background: #212121;
+}
+footer {
+   background-color: #010101;
+   color: #fff;
+   padding: 20px ;
+   width:100%;
+   text-align:left;
+   margin-top: 190px;
+}
+h5{
+   color:#ff0000;
+   font-size:17px;
+   margin-right: 10px;
+   margin-left: 20px;
+}
+.contactinfo{
+   display: flex;
+   align-items: space-between;
+}
+
+.contactinfo.p{
+    display: inline-block;
+    position: relative;
+}
+
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 160px;;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    display: center;
+}
+
+.cart-head {
+    text-align: center;
+}
+
+.name {
+    font-size: 34px;
+    color: #333;
+}
+
+.head {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.Heading {
+    background-color: #333;
+    color: #fff;
+}
+
+.datas:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.Total-amount {
+    margin-top: 20px;
+    text-align: right;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+
+}
+
+.cart-buttons {
+    margin-top: 10px;
+}
+
+.bttn, .checkOutBt {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.checkOutBt {
+    background-color: #4CAF50;
+    margin-left: 10px;
+}
+td img{
+    width: 50px;
+    height: auto;
+    border: none;
+}
+td a{
+    text-decoration: none;
+}

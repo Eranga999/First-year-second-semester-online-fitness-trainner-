@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link  rel="icon" type="image/jfif" href="images/whitelogo.png" class="center"  >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bash Fitness</title>
+    <link rel="stylesheet" href="paymentpage.css">
+</head>
+<body>
+	<div class="banner">
+        <div class="navbar">
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="trainerpage.html">Trainers</a></li>
+                <li><a href="shoppage.html">Shop</a></li>
+                <li><a href="reviewpage.html">Reviews</a></li>
+                <li><a href="planpage.html">Plans</a></li>
+                <li><a href="aboutpage.html">About</a></li>
+			
+        </ul>
+		<div class="logo">
+            <a href="profilepage.html"> 
+            <img src="images/redlogo.png" style="width:80px;height:80px">
+            </a>
+		</div>
+		</div>
+    </div>
+	<div class= "bg">
+    <form action="payment.php" method="post">
+            <div class="container">
+                <h1>Payment</h1><br>
+                <p>Please enter your payment details</p><br>
+                <hr>
+            
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter your email" name="email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter your Password" name="psw" required>
+
+
+                <label for="cardno"><b>Card Number</b></label>
+                <input type="cardnumber" placeholder="Enter your card number" name="cardno" required>
+	
+				
+				<label for="cvc"><b>CVC</b></label>
+                <input type="cvc" placeholder="xxx" name="cvc" required>
+				<br>
+                <br>
+                <label for="TransactionDate">Select the date:</label>
+                <input type="date" id="TransactionDate" name="TransactionDate">
+                <br>
+                <br>
+				<hr>
+                <p>Please select your Plan</p><br>
+                    <input type="radio" id="html" name="plantype" value="Basic">
+                    <label for="basic">Basic</label><br>
+                    <input type="radio" id="css" name="plantype" value="Premium">
+                    <label for="premium">Premium</label><br>
+                <br>  
+
+                <label for="trainer">Select a Trainer:</label>
+                <select name="trainer" id="trainer">
+                    <option value="1">Fazil</option>
+                    <option value="2">Gaia</option>
+                    <option value="3">Mike</option>
+                    <option value="4">lucian</option>
+                    <option value="5">Juliyah</option>
+                    <option value="6">Zuri</option>
+                    <option value="7">Dhanushka</option>
+                    <option value="8">Annabel</option>
+                    <option value="9">Taaja</option>
+                    <option value="10">Dulanga</option>
+                    <option value="11">Yohan</option>
+                    <option value="12">Hasitha</option>
+                </select>
+                <br><br><hr>
+                <div>
+                    <a href="homepage.html" onclick="alert('Payment Succesfull');"><button type="submit" name="submit">Pay</button></a>
+                </div>
+            </div>
+    </form>
+    <footer>
+        <div class="contactinfo">
+            <p><h5>Email</h5> Bashfitness@gmail.com</p>
+            <p><h5>Phone</h5> 0112345434</p>
+            <p><h5>Instagram</h5> Bashfitness</p>
+            <p><h5>Admin </h5> Bashadmin@gmail.com</p>
+            <p><h5 style="margin-left:80px;">Copyright Reserved © Bash fitness 2023</h5></p>
+         </div>
+         
+    </footer>
+	</div>
+</body>
+</html>

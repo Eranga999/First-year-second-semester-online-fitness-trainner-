@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<link  rel="icon" type="image/jfif" href="images/whitelogo.png" class="center"  >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bash Fitness</title>
+    <link rel="stylesheet" href="aboutpage.css">
+</head>
+<body>
+
+<div class="banner">
+        <div class="navbar">
+				<ul>
+					<li><a href="homepage.html">Home</a></li>
+					<li><a href="trainerpage.html">Trainers</a></li>
+					<li><a href="shoppage.html">Shop</a></li>
+					<li><a href="reviewdashboard.php">Reviews</a></li>
+					<li><a href="planpage.html">Plans</a></li>
+					<li><a href="aboutpage.html">About</a></li>
+			</ul>
+			<div class="logo">
+				<img src="images/redlogo.png" style="width:80px;height:80px">
+			</div>
+		</div>
+</div>
+
+
+<div class= "bg">
+<div style="max-width:100%">
+  <img class="shuffle" src="images/image2.jpg" style="width:103%">
+  <img class="shuffle" src="images/image3.jpg" style="width:103%">
+  <img class="shuffle" src="images/image4.jpg" style="width:103%">
+  <img class="shuffle" src="images/image5.jpg" style="width:103%">
+  <img class="shuffle" src="images/image6.jpg" style="width:103%">
+  <img class="shuffle" src="images/image7.jpg" style="width:103%">
+  <img class="shuffle" src="images/image8.jpg" style="width:103%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("shuffle");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+</script>
+<div class="box1">
+			<image src="images/whitelogo.png" style="width:300px;height:300px;margin: 170px 0 20px 40px;">
+			<h1  style="border:2px solid red;border-radius:25px;margin-bottom:150px;padding:10px;">No matter what you want to do,fitness is our game!</h1>
+</div>
+		<div class="box2">
+			<h2>ABOUT US ...</h2>
+			<div class= "box3">
+			   <h4>
+				Welcome to BASH, where fitness meets transformation, and wellness becomes a lifestyle. 
+				As your dedicated online fitness trainer, and we are thrilled to embark on this journey with you.
+				We aim to make people healthy and fit, no matter where they are and what time they are free.
+				Fitness isn't just about looking good; it's about feeling great and living your best life.
+				Our training philosophy revolves around holistic wellness.
+				We also believe in tailoring fitness plans that suit your unique needs and goals. 
+				Whether you're a beginner or an experienced athlete, together, we'll create a personalized plan that takes into account your body, lifestyle, and aspirations.				.
+			   </h4>
+             </div>			
+		</div>
+</body>
+<footer>
+<div class="contactinfo">
+        <p><h5>Email</h5> Bashfitness@gmail.com</p>
+        <p><h5>Phone</h5> 0112345434</p>
+        <p><h5>Instagram</h5> Bashfitness</p>
+<p><h5>Admin </h5> Bashadmin@gmail.com</p>
+<h5 style="margin-left:80px;">Copyright Reserved ©Bash fitness 2023</h5>
+     </div>
+
+</footer>  
+</div>
+
+</html>

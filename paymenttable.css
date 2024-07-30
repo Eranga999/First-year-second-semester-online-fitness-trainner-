@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.bg{
+   background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.9) ),url(images/backgroundprofile.jpg);
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 100vh;
+   overflow-y: scroll;
+   overflow-x: scroll;
+}
+.banner{
+   position:relative;
+   background-color :#010101;
+   width: 100%;
+   height: 90px;
+   position: fixed;
+   top:0;
+   right:0;
+   left:0;
+}
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 35px ;
+    display: flex;
+    align-items: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #f90000;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.clearfix::after{
+      content:"";
+      clear:both;
+      display:table;
+}
+::-webkit-Scrollbar{
+   width: 15px;
+}
+::-webkit-scrollbar-track{
+   background: #212121;
+}
+::-webkit-scrollbar-thumb{
+   background: #212121;
+}		
+
+h1{
+   text-align:left;
+   color:#fff;
+   font-weight: bold;
+   font-size:50px;
+}
+table{
+   border-collapse:collapse;
+   table-layout:fixed;
+}
+.container{
+   margin : 0 auto;
+   margin-top: 100px;
+   border: 3px solid red;
+   border-radius: 25px;
+}
+tr{
+   color:#fff;
+   font-size:27px;
+   border-bottom: 3px solid red;
+}
+tr:last-of-type {
+   border-bottom:none;
+}
+td{
+    padding: 10px;
+    text-align: center;
+}
+th{
+    padding: 15px;
+}
+
+button{
+   padding: 10px;
+   background: transparent;
+   border: solid red;
+   border-radius: 25px;
+   color: white;
+   margin: 10px;
+   margin-bottom: 30px;
+}
+.btn{
+   display: flex;
+   padding-left: 30%;
+}
+
+
+
+footer {
+   background-color: #010101;
+   color: #fff;
+   padding: 20px ;
+   width:100%;
+   text-align:left;
+   margin-top: 200px;
+}
+h5{
+   color:#ff0000;
+   font-size:17px;
+   margin-right: 10px;
+   margin-left: 20px;
+}
+.contactinfo{
+   display: flex;
+   align-items: space-between;
+}
+.contactinfo.p{
+    display: inline-block;
+    position: relative;
+}

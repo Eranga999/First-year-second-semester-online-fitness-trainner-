@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.bg{
+   background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.9) ),url(images/backgroundhome.jpg);
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 100vh;
+   overflow-y: scroll;
+   overflow-x: scroll;
+}
+.banner{
+   position:relative;
+   background-color :#010101;
+   width: 100%;
+   height: 90px;
+   position: fixed;
+   top:0;
+   right:0;
+   left:0;
+}
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 35px ;
+    display: flex;
+    align-items: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #f90000;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.logo{
+   position: absolute;
+   top: 3px;
+   right: 3px;
+}
+.clearfix::after{
+      content:"";
+      clear:both;
+      display:table;
+}
+::-webkit-Scrollbar{
+   width: 15px;
+}
+::-webkit-scrollbar-track{
+   background: #212121;
+}
+::-webkit-scrollbar-thumb{
+   background: #212121;
+}
+footer {
+   background-color: #010101;
+   color: #fff;
+   padding: 20px ;
+   width:100%;
+   text-align:left;
+}
+h5{
+   color:#ff0000;
+   font-size:17px;
+   margin-right: 10px;
+   margin-left: 20px;
+}
+.contactinfo{
+   display: flex;
+   align-items: space-between;
+}
+
+.contactinfo.p{
+    display: inline-block;
+    position: relative;
+}
+
+h1{
+text-align:center;
+color:#fff;
+padding-top:160px;
+font-weight: bold;
+font-size:50px;
+}
+h2{
+color:#fff;
+padding: 7px 0 20px 10px;
+font-weight: bold;
+font-size:25px;
+overflow:hidden
+}
+p{
+    color:#fff;
+    padding: 10px;
+    font-weight: bold;
+    font-size:15px;
+    overflow: auto;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin:40px 20% 50px 20%;
+    
+}
+.box{
+    border: 2px solid red;
+    margin: 10px;
+    border-radius: 25px;
+    padding:10px;
+    width:28%;
+    height:100;
+}
+form{
+    margin:20px 20% 50px 20%;
+}
+input{
+    width: 100%;
+    min-height: 25px; 
+    border: 2px solid red;
+    border-radius: 25px;
+}
+.submit{
+    width: 30%;
+    height: 30px;
+    margin-top:20px;
+    background-color: red;
+}

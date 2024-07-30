@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.bg{
+   background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.9) ),url(images/backgroundhome.jpg);
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+   height: 100vh;
+   overflow-y: scroll;
+   overflow-x: scroll;
+}
+.banner{
+   position:relative;
+   background-color :#010101;
+   width: 100%;
+   height: 90px;
+   position: fixed;
+   top:0;
+   right:0;
+   left:0;
+}
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 35px ;
+    display: flex;
+    align-items: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #f90000;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.logo{
+   position: absolute;
+   top: 3px;
+   right: 3px;
+}
+.clearfix::after{
+      content:"";
+      clear:both;
+      display:table;
+}
+::-webkit-Scrollbar{
+   width: 15px;
+}
+::-webkit-scrollbar-track{
+   background: #212121;
+}
+::-webkit-scrollbar-thumb{
+   background: #212121;
+}		
+footer {
+   background-color: #010101;
+   color: #fff;
+   padding: 20px ;
+   width:100%;
+   text-align:left;
+}
+h5{
+   color:#ff0000;
+   font-size:17px;
+   margin-right: 10px;
+   margin-left: 20px;
+}
+.contactinfo{
+   display: flex;
+   align-items: space-between;
+}
+
+.contactinfo.p{
+    display: inline-block;
+    position: relative;
+}
+
+h1{
+	text-align:center;
+	color:#fff;
+	padding-top:60px;
+	font-weight: bold;
+	font-size:50px;
+}
+h2{
+	color:#fff;
+	padding: 7px 0 0 15px;
+	font-weight: bold;
+	font-size:35px;
+}
+.statbox{
+    display:flex;
+    align-content:center;
+    border: 2px solid red;
+    border-radius: 25px;
+    margin: 30px; 
+}
+.statbox div{
+    
+    align-items :center;
+    margin: 10px;
+    width:100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color:white;
+    padding: 7px 0 7px 0;
+}
+.trainerbox{
+    display:flex;
+    align-content:center;
+    border: 2px solid red;
+    border-radius: 25px;
+    margin: 30px; 
+}
+.trainerbox div{
+    
+    align-items :center;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color:white;
+    padding: 7px 0 7px 0;
+    max-width:100%;
+}
+.trainerbox a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color:white;
+    padding: 50px 30px 7px 20px;
+
+}
+.statbox .plan p{
+    padding-top: 20px;
+    font-size: 15px;
+}
+.statbox .plan ul li{
+    text-align: left;
+    font-size: 15px;
+}
+.statbox .plan ul{
+    padding-left:50px;
+
+}
+#review{
+    margin: 20px 80px 0 50px;
+}
