@@ -1,0 +1,1 @@
+This project is our first attempt at web development. We’re using HTML and CSS to build the front end, creating the visual layout and design. For the back end, we're using PHP to handle the server-side functionality and manage data. This combination of HTML, CSS, and PHP helps us create a complete and functional website.
