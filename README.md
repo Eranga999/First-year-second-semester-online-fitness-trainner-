@@ -39,10 +39,10 @@ It is a comprehensive web application designed to provide users with personalize
    git cl![onlinefitness traineer ss](https://github.com/user-attachments/assets/3f793ed0-8f42-409c-b10f-a98adabee116)
    com/Eranga999/First-year-second-semester-online-fitness-trainner-.git
 
-one https://github.![onlinefitness traineer ss](https://github.com/user-attachments/assets/23783ee2-a746-43cb-8540-a0cac706b10c)
 
    preview homepage image:
 
 
+![onlinefitness traineer ss](https://github.com/user-attachments/assets/7dda1b58-fda5-4bc4-8f30-7a5b7e5e3a01)
 
    
