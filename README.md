@@ -46,5 +46,9 @@ It is a comprehensive web application designed to provide users with personalize
    preview homepage image:
 
 ![onlinefitness traineer ss](https://github.com/user-attachments/assets/7dda1b58-fda5-4bc4-8f30-7a5b7e5e3a01)
+![onlinefitness traineer ss 2](https://github.com/user-attachments/assets/ab08e3ee-ca35-41c4-b661-be2c94dfec1a)
+![onlinefitness traineer ss 3](https://github.com/user-attachments/assets/163401df-2382-4269-a0ab-3964ec4d340e)
+
+
 
    
